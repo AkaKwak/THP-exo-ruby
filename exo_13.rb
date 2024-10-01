@@ -3,7 +3,6 @@
   5.times do |tenth|
     10.times do |unit|
         email = "jean.dupont.#{tenth}#{unit}@email.fr"
-          puts email
         array_email.push(email)
     end
   end
