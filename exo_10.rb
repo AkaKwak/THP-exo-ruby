@@ -5,8 +5,8 @@ puts "Quelle est ton année de naissance ?"
 print "> "
 birth_year = gets.chomp.to_i
 #ARRAY ENTRE |PIPE|  = 0
-(today-birth_year).times do |i|
-    puts "En #{birth_year + i + 1}, tu avais #{i + 1} ans"
+(today-birth_year+1).times do |i|
+    puts "En #{birth_year + i}, tu avais #{i} ans"
   end 
 
 #i = puts "age de la personne"

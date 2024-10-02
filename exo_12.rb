@@ -14,3 +14,5 @@ user_age.times do |i|
   end
   end 
 
+
+  #erreur car je n'affiche pas toute les lignes et ne transforme pas la ligne spécifique à la pair

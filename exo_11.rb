@@ -7,6 +7,6 @@ puts "Quel est ton âge ?"
 print "> "
 user_age = gets.chomp.to_i
 #ARRAY ENTRE |PIPE|  = 0
-user_age.times do |i|
-    puts "Il y'a #{i + 1} ans, tu avais #{user_age - i - 1} ans"
+(user_age+1).times do |i|
+    puts "Il y'a #{i} ans, tu avais #{user_age - i} ans"
   end 
